@@ -1,6 +1,6 @@
 import {
     AuthState,
-    SystemActionTypes,
+    AuthActionTypes,
     UPDATE_SESSION
 } from './types'
 
@@ -12,7 +12,7 @@ const initialState: AuthState = {
 
 export function authReducer(
     state = initialState,
-    action: SystemActionTypes
+    action: AuthActionTypes
 ): AuthState {
     switch (action.type) {
         case UPDATE_SESSION: {

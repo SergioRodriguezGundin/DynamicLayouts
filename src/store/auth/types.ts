@@ -10,4 +10,4 @@ interface UpdateSessionAction {
     payload: AuthState
 }
 
-export type SystemActionTypes = UpdateSessionAction
+export type AuthActionTypes = UpdateSessionAction
